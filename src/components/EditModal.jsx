@@ -13,7 +13,7 @@ const EditModal = ({
   return (
     <div className="confirm-modal">
       <div className="modal-inner">
-        <h5>kitap ismin düzenle</h5>
+        <h5>Kitap İsmini Düzenleyin</h5>
         <input
           value={editItem.title}
           type="text"
