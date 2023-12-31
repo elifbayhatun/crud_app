@@ -30,7 +30,7 @@ const BookCard = ({
           Düzenle
         </button>
         <button className="btn btn-success" onClick={() => handleRead(book)}>
-          {book.isRead ? "okundu" : "okunmadı"}
+          {book.isRead ? "Okundu" : "Okunmadı"}
         </button>
       </div>
     </div>
